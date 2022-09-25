@@ -1,7 +1,7 @@
 ---
 theme: seriph
 background: https://s1.ax1x.com/2022/07/15/j4ugET.png
-class: 'text-center'
+class: text-center
 highlighter: shiki
 lineNumbers: false
 drawings:
@@ -18,6 +18,7 @@ drawings:
     <carbon-logo-github />
   </a>
 </div>
+
 
 ---
 
@@ -138,18 +139,28 @@ layout: full
 `测试中的好玩的功能`
 - 情绪分析
 
-<img src="https://s1.ax1x.com/2022/07/15/j4ua4g.png">
 
+
+[![jo6L6g.png](https://s1.ax1x.com/2022/07/18/jo6L6g.png)](https://imgtu.com/i/jo6L6g)
 <br>
 
 [百度智能云对话情绪识别](https://ai.baidu.com/ai-doc/NLP/rk6z52hlz)
-<style>
-img{
-  display: block;
-  margin: 0 auto;
-}
-</style>
 
+---
+layout: full
+---
+# 目前的功能
+<br>
+
+`测试中的好玩的功能`
+- 情绪分析
+
+
+
+[![jo6L6g.png](https://s1.ax1x.com/2022/07/15/j4ua4g.png)](https://s1.ax1x.com/2022/07/15/j4ua4g.png)
+<br>
+
+[百度智能云对话情绪识别](https://ai.baidu.com/ai-doc/NLP/rk6z52hlz)
 
 ---
 
@@ -292,4 +303,3 @@ const final = {
 [了解一下](https://sli.dev/guide/animations.html#motion)
 
 </div>
-
