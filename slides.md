@@ -6,6 +6,8 @@ highlighter: shiki
 lineNumbers: false
 drawings:
   persist: false
+transition: fade
+preload: false
 ---
 
 <h1 class="text-green-200">Python botpy</h1>
@@ -18,7 +20,6 @@ drawings:
     <carbon-logo-github />
   </a>
 </div>
-
 
 ---
 
@@ -67,7 +68,6 @@ image: https://s1.ax1x.com/2022/07/15/j4u2UU.png
 </style>
 
 
-
 ---
 layout: two-cols
 ---
@@ -101,9 +101,12 @@ layout: full
 - @TypeScriptActions 叫----------------------`让机器人叫你些什么（一般是叫爹）`
 - 骰子------------------------------------------`返回一个随机数`
 - xxx我好喜欢你suki---------------------------`从17句共4225字的发病文学中随机选取一句`
+
+
 ---
 layout: full
 ---
+
 # 目前的功能
 <br>
 
@@ -120,6 +123,7 @@ layout: full
 ---
 layout: full
 ---
+
 # 目前的功能
 <br>
 
@@ -133,6 +137,7 @@ layout: full
 ---
 layout: full
 ---
+
 # 目前的功能
 <br>
 
@@ -149,6 +154,7 @@ layout: full
 ---
 layout: full
 ---
+
 # 目前的功能
 <br>
 
@@ -197,6 +203,7 @@ layout: full
 }
 </style>
 
+
 ---
 
 
@@ -228,7 +235,6 @@ async def get_someday_history(self, message: Message, day):
         await browser.close()
         await self.api.post_message(channel_id=message.channel_id, content=a[:-1], msg_id=message.id)
 
-
 ```
 
 
@@ -242,6 +248,7 @@ layout: fact
 
 ---
 layout: center
+preload: false
 ---
 # Powered By Slidev
 
